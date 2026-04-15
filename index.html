@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maxim Dokalenko</title>
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/vinyl.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/vinyl.png">
+  <link rel="shortcut icon" href="assets/vinyl.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <img id="header-logo" src="assets/logo.png" alt="Maxim Dokalenko" onerror="this.style.display='none'" />
+        <span class="header-name">MAXIM DOKALENKO</span>
+      </div>
+      <nav id="main-nav">
+        <button class="nav-btn active" data-tab="home">HOME</button>
+        <button class="nav-btn" data-tab="bio">BIO</button>
+        <button class="nav-btn" data-tab="gallery">GALLERY</button>
+        <button class="nav-btn" data-tab="events">EVENTS</button>
+        <button class="nav-btn" data-tab="music">MUSIC</button>
+        <button class="nav-btn promo-btn" data-tab="promo">▶ PROMO</button>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <button class="nav-btn active" data-tab="home">HOME</button>
+    <button class="nav-btn" data-tab="bio">BIO</button>
+    <button class="nav-btn" data-tab="gallery">GALLERY</button>
+    <button class="nav-btn" data-tab="events">EVENTS</button>
+    <button class="nav-btn" data-tab="music">MUSIC</button>
+    <button class="nav-btn promo-btn" data-tab="promo">▶ PROMO</button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- HOME TAB -->
+    <section id="tab-home" class="tab active">
+      <div class="hero">
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-content">
+          <p class="hero-sub" id="hero-tagline">— loading —</p>
+          <h1 class="hero-name" id="hero-name">MAXIM<br/>DOKALENKO</h1>
+          <p class="hero-desc" id="hero-desc"></p>
+          <div class="hero-socials" id="hero-socials"></div>
+          <button class="cta-btn" data-tab="events">UPCOMING SHOWS</button>
+        </div>
+        <div class="hero-ticker" id="hero-ticker"></div>
+      </div>
+    </section>
+
+    <!-- BIO TAB -->
+    <section id="tab-bio" class="tab">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">BIO</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="bio-layout">
+          <div class="bio-image-block">
+            <img id="bio-photo" src="assets/bio-photo.jpg" alt="Maxim Dokalenko" onerror="this.parentElement.style.display='none'" />
+            <div class="bio-tags" id="bio-tags"></div>
+          </div>
+          <div class="bio-text-block">
+            <div id="bio-text"></div>
+            <div class="bio-socials" id="bio-socials"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY TAB -->
+    <section id="tab-gallery" class="tab">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">GALLERY</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+      <!-- LIGHTBOX -->
+      <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">✕</button>
+        <button class="lightbox-prev" id="lightbox-prev">&#8592;</button>
+        <button class="lightbox-next" id="lightbox-next">&#8594;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+      </div>
+    </section>
+
+    <!-- EVENTS TAB -->
+    <section id="tab-events" class="tab">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">EVENTS</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="events-upcoming">
+          <h3 class="events-group-title">UPCOMING SHOWS</h3>
+          <div id="events-upcoming-list"></div>
+        </div>
+        <div class="events-past">
+          <h3 class="events-group-title past-label">PAST SHOWS</h3>
+          <div id="events-past-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MUSIC TAB -->
+    <section id="tab-music" class="tab">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">MUSIC</h2>
+          <div class="title-line"></div>
+        </div>
+        <div id="music-embeds"></div>
+        <div class="local-player-section" id="local-player-section">
+          <h3 class="events-group-title">LOCAL FILES</h3>
+          <div id="local-tracks"></div>
+          <div class="audio-player-bar" id="audio-player-bar" style="display:none">
+            <div class="player-info">
+              <span class="player-track-name" id="player-track-name">—</span>
+            </div>
+            <div class="player-controls">
+              <button id="player-prev">&#9664;&#9664;</button>
+              <button id="player-play">&#9654;</button>
+              <button id="player-next">&#9654;&#9654;</button>
+            </div>
+            <div class="player-progress-wrap">
+              <span id="player-time-cur">0:00</span>
+              <input type="range" id="player-seek" value="0" min="0" max="100" step="0.1" />
+              <span id="player-time-dur">0:00</span>
+            </div>
+            <div class="player-vol-wrap">
+              <span>VOL</span>
+              <input type="range" id="player-vol" value="80" min="0" max="100" />
+            </div>
+          </div>
+          <audio id="audio-el"></audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMO TAB -->
+    <section id="tab-promo" class="tab">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">PROMO</h2>
+          <div class="title-line"></div>
+          <p class="section-sub">Hot News <code> HOT NEWS</code>  → <code> hot news</code> h0t n3w5 </p>
+        </div>
+        <div class="promo-stage" id="promo-stage"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <span class="footer-name" id="footer-name">MAXIM DOKALENKO</span>
+      <div class="footer-socials" id="footer-socials"></div>
+      <span class="footer-copy" id="footer-copy"></span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

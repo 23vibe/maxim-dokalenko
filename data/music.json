@@ -1,0 +1,34 @@
+{
+  "embeds": [
+    {
+      "platform": "Mixcloud",
+      "title": "Latest Mix",
+      "iframe": "<iframe width=\"100%\" height=\"120\" src=\"https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fradio23cz%2Fpirate-free-tekno-stream-from-prague-20251113-190201%2F\" frameborder=\"0\" allow=\"encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;\" ></iframe>"
+    },
+    {
+      "platform": "SoundCloud",
+      "title": "Selected Tracks",
+      "iframe": "<iframe width=\"100%\" height=\"200\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A322137717&color=%23a6a299&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>"
+    },
+    {
+      "platform": "Bandcamp",
+      "title": "Collection",
+      "iframe": "<a target='blank' href=\"https://bandcamp.com/maximdokalenko/\">Bandcamp</a>"
+    }
+  ],
+
+  "localFiles": [
+    {
+      "title": "Hardcore_Gleb mashup",
+      "file": "assets/local-music/Hardcore_Gleb.mp3"
+    },
+    {
+      "title": "Maxim_Dokaenko&Susta (guitar)",
+      "file": "assets/local-music/Maxim_Dokaenko_Susta.mp3"
+    },
+    {
+      "title": "pivo_teaser mashup",
+      "file": "assets/local-music/pivo_teaser.mp3"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Maxim Dokalenko",
+  "tagline": "— DJ · Booze · Mashup · Lazy Bastards · Radio23cz —",
+  "heroDesc": "Funky, Breaks, Drum & Bass, Tekno, Breakcore, Hardcore, Speedcore",
+  "bioPhoto": "assets/bio-photo.jpg",
+
+  "bio": [
+    "Maxim Dokalenko is a DJ and promoter based in Prague, carving out a space where raw industrial textures meet hypnotic dancefloor energy.",
+    "With two decades behind the decks, Maxim has played clubs, festivals and rave parties across Czechia, Slovakia, Austria and Russia known for long-form sets that take listeners on a journey — never settling, always evolving.",
+    "Ehhhh this Claude agent has a good guess lol. Anyways I'm currently out of free tokens, so the contact form will be built next time.",
+    "Meanwhile you can contact me on Mix/Sound clouds. For bookings as well as if you'd like to have your own site on this open-source project.",
+    "Cheers!"
+  ],
+
+  "tags": ["Funky, Breaks, Drum & Bass, Tekno, Breakcore, Hardcore, Speedcore, DJ, Promoter, Studio, Radio23cz Supporter, Vinyl, Digital, Mashup, Hangover"],
+  "genres": ["Tekno, Breakcore, Hardcore, Speedcore"],
+
+  "socials": [
+    { "platform": "Mixcloud",   "url": "https://www.mixcloud.com/maximdokalenko/" },
+    { "platform": "SoundCloud", "url": "https://soundcloud.com/maxim-dokalenko" },
+    { "platform": "Bandcamp",   "url": "https://bandcamp.com/maximdokalenko/" },
+    { "platform": "Discogs",  "url": "https://www.discogs.com/artist/5829811-Maxim-Dokalenko" },
+    { "platform": "Radio23cz FB",  "url": "https://www.facebook.com/radio23cz/" },
+    { "platform": "My Past",  "url": "https://23vibe.github.io/arrow/" }
+  ],
+
+  "promo": {
+    "type": "event",
+    "title": "Intergalactic Show",
+    "subtitle": "Tekno Vinyl mix",
+    "date": "Friday, 24 April 2026 — Doors 21:00",
+    "image": "/gallery/recykl_tekno.jpg",
+    "link": "https://www.facebook.com/recykl.club/",
+    "cta": "GET CRAZY ↗",
+    "note": "dorazte"
+  }
+}
