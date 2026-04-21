@@ -986,9 +986,12 @@ input[type="range"]::-webkit-slider-thumb {
 
 .footer-last-update {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   color: var(--text-3);
   letter-spacing: 0.06em;
+  line-height: 1.5;
+  display: inline-block;
+  text-transform: uppercase;
 }
 
 /* ============================================================
@@ -997,6 +1000,9 @@ input[type="range"]::-webkit-slider-thumb {
 @media (max-width: 900px) {
   #main-nav { display: none; }
   .hamburger { display: flex; }
+
+  .logo-block { flex-shrink: 1; min-width: 0; overflow: hidden; }
+  .footer-last-update { font-size: 0.45rem; }
 
   .bio-layout {
     grid-template-columns: 1fr;
