@@ -157,6 +157,3 @@ python -m http.server 8000
 
 Automated json updates / maybe switch to plaintext due to quotemarks issue and simplicity.
 Videos & gif support
-Update music
-collect photos 4 gallery
-contact form

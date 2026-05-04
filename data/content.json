@@ -25,13 +25,13 @@
   ],
 
   "promo": {
-    "type": "event",
-    "title": "Rave pod Mlákou",
-    "subtitle": "1) Tekno, 2) Speedcore; Vinyl mix",
-    "date": "Thursday, 30 April - Sunday, 03 May 2026",
-    "image": "/maxim-dokalenko/gallery/pko_fuga_freeparty.jpg",
-    "link": "https://maps.app.goo.gl/NFHCDPQ2FEUhWtth9",
-    "cta": "rychta ↗",
-    "note": "Držte si dekle, poletíme!"
+    "type": "note",
+    "title": "Annoying cookies",
+    "subtitle": "Showing this site to my friends pointed on annoying cookies.",
+    "date": "",
+    "image": "",
+    "link": "https://23vibe.gitub.io",
+    "cta": "landing page ↗",
+    "note": "I have decided to remove google analytics workspace connection from this project."
   }
 }
