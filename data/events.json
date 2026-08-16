@@ -16,5 +16,14 @@
     "ticketLink": "https://23vibe.github.io/maxim-dokalenko/gallery/pko_fuga_freeparty.jpg",
     "note": "Hardcore, Speedcore, Vinyl",
     "past": true
+  },
+  {
+  "title": "Bridge Underground Space afterparty",
+  "venue": "Centrála club",
+  "city": "Prague, CZ",
+  "date": "2026-09-12",
+  "ticketLink": "https://23vibe.github.io/maxim-dokalenko/gallery/centrala.jpeg",
+  "note": "Tekno Mashup",
+  "past": false
   }
 ]
