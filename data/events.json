@@ -25,5 +25,23 @@
   "ticketLink": "https://23vibe.github.io/maxim-dokalenko/gallery/centrala.jpeg",
   "note": "Tekno Mashup",
   "past": false
+  },
+  {
+  "title": "United Soundsystems Against Fascism",
+  "venue": "TBA",
+  "city": "CZ",
+  "date": "2026-11-14",
+  "ticketLink": "TBA",
+  "note": "BREAKCORE DJ SET",
+  "past": false
+  },
+  {
+  "title": "TBA",
+  "venue": "Pink Whale",
+  "city": "Bratislava, SK",
+  "date": "2026-12-26",
+  "ticketLink": "TBA",
+  "note": "Freetekno Mashup",
+  "past": false
   }
 ]

@@ -25,13 +25,13 @@
   ],
 
   "promo": {
-    "type": "party",
-    "title": "Bridge Underground Space afterparty",
-    "subtitle": "2-hour tekno mashup mix",
-    "date": "2026-09-12",
-    "image": "https://23vibe.github.io/maxim-dokalenko/gallery/centrala.jpeg",
-    "link": "https://23vibe.github.io/maxim-dokalenko/gallery/centrala.jpeg",
-    "cta": "flyer ↗",
-    "note": "Come and have fun!"
+    "type": "music",
+    "title": "Maxim Dokalenko & DJ Srot B-Day Party",
+    "subtitle": "Oldskool Tekno Vinyl Mix",
+    "date": "2026-09",
+    "image": "",
+    "link": "https://23vibe.github.io/maxim-dokalenko/#music",
+    "cta": "music ↗",
+    "note": "Hey hey! Check the oldschool tekno vinyl mix recorded for everyone who celebrates a birthday in September!"
   }
 }
